@@ -1,7 +1,7 @@
 import * as THREE from './build/three.module.js';
 import { GLTFLoader } from './src/GLTFLoader.js';
 import { OrbitControls } from './src/OrbitControls.js';
-import Stats from './src/stats.module.js';
+import { AfterimagePass } from './src/AfterimagePass.js';
 
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(75, innerWidth/innerHeight, 1, 1000);
@@ -48,7 +48,7 @@ for ( let i = 0; i < position.count; i ++ ) {
 
 }
 
-const texture = new THREE.TextureLoader().load( './assets/water.jpg' );
+const texture = new THREE.TextureLoader().load( './assets/waterill.png' );
 				texture.wrapS = texture.wrapT = THREE.RepeatWrapping;
 				texture.repeat.set( 5, 5 );
 
