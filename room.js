@@ -1,7 +1,7 @@
 import * as THREE from './build/three.module.js';
 import { GLTFLoader } from './src/GLTFLoader.js';
 import { OrbitControls } from './src/OrbitControls.js';
-import { AfterimagePass } from './src/AfterimagePass.js';
+//import { AfterimagePass } from './src/AfterimagePass.js';
 
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(75, innerWidth/innerHeight, 1, 1000);
